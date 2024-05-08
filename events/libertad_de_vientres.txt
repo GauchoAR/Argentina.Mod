@@ -34,6 +34,7 @@ vientres.1 = {
     }
     }
 }
+
 vientres.2 = { #completition effect
 	type = country_event
 	placement = ROOT

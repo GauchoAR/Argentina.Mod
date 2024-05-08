@@ -250,7 +250,6 @@ islas_malvinas.1 {
     option = {
 		name = islas_malvinas.1.a
 		
-		add_modifier = islas_malvinas
 		
 		s:STATE_ISLAS_MALVINAS = {
 					add_homeland = cu:platinean

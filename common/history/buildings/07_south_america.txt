@@ -881,7 +881,7 @@ s:STATE_BUENOS_AIRES={
 				building="building_wheat_farm"
 				level=1
 				reserves=1
-				aactivate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_privately_owned" "pm_tools" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1040,7 +1040,7 @@ s:STATE_CORDOBA={
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
-			reate_building={
+			create_building={
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
@@ -1159,6 +1159,12 @@ s:STATE_TUCUMAN={
 	}
 	s:STATE_SAN_JUAN={
 		region_state:ARG={
+		create_building={
+				building="building_gold_mine"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_gold_mine" }
+			}
 		}
 	}
 	s:STATE_FORMOSA_ARG={
